@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node -e \"require('./lib/index')().listen(process.env.PORT || 3000).catch(console.trace)\""
+  },
+  "dependencies": {
+    "fastify": "^1.5.0",
+    "fastify-auto-push": "^0.4.0",
+    "fastify-sse": "^0.1.5"
+  }
+}
