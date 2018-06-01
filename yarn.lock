@@ -2126,7 +2126,7 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
-node-bandwidth@^2.3:
+node-bandwidth@^2.3, node-bandwidth@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/node-bandwidth/-/node-bandwidth-2.6.5.tgz#2de659a450b0d3987d6c7836657d2edecfdd1176"
   dependencies:
