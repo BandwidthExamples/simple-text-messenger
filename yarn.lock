@@ -646,6 +646,10 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
+dotenv@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-6.0.0.tgz#24e37c041741c5f4b25324958ebbc34bca965935"
+
 duplexer3@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
@@ -1067,7 +1071,7 @@ fastify-plugin@^0.2.2:
   dependencies:
     semver "^5.4.1"
 
-fastify-plugin@^1.0.0, fastify-plugin@^1.0.1:
+fastify-plugin@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-1.0.1.tgz#4bd94d6f27cddf59fd43e188d6eedb1168ffc35d"
   dependencies:
@@ -1079,14 +1083,6 @@ fastify-redis@^1.0.0:
   dependencies:
     fastify-plugin "^0.2.2"
     ioredis "^3.2.2"
-
-fastify-secure-session@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/fastify-secure-session/-/fastify-secure-session-0.4.1.tgz#a84bcd1e31fb9789b7d7efdcd035581aaa2691f8"
-  dependencies:
-    fastify-cookie "^2.0.1"
-    fastify-plugin "^1.0.1"
-    sodium-native "^2.1.6"
 
 fastify-sse@^0.1.5:
   version "0.1.5"
@@ -1446,7 +1442,7 @@ inherits@2, inherits@2.0.3, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
-ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
+ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
@@ -2126,10 +2122,6 @@ mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
 
-nan@^2.4.0:
-  version "2.10.0"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
-
 nanomatch@^1.2.9:
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.9.tgz#879f7150cb2dab7a471259066c104eee6e0fa7c2"
@@ -2162,10 +2154,6 @@ node-bandwidth@^2.3, node-bandwidth@^2.6.5:
     request "^2.83.0"
     xml-js "^1.5.1"
     xmlbuilder "^9.0.4"
-
-node-gyp-build@^3.0.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/node-gyp-build/-/node-gyp-build-3.3.0.tgz#df755c8dba1120c7c5e3179bbfd4203aa495e9a3"
 
 normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.4.0"
@@ -2824,14 +2812,6 @@ snapdragon@^0.8.1:
     source-map "^0.5.6"
     source-map-resolve "^0.5.0"
     use "^3.1.0"
-
-sodium-native@^2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/sodium-native/-/sodium-native-2.1.6.tgz#4c130a61fe4cddf029d14f6f61489a2efde49cad"
-  dependencies:
-    ini "^1.3.5"
-    nan "^2.4.0"
-    node-gyp-build "^3.0.0"
 
 sort-keys@^2.0.0:
   version "2.0.0"
