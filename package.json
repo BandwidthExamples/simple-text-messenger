@@ -11,9 +11,9 @@
     "fastify-cookie": "^2.0.1",
     "fastify-multipart": "^0.5.0",
     "fastify-redis": "^1.0.0",
-    "fastify-sse": "^0.1.5",
     "ioredis": "^3.2.2",
     "node-bandwidth": "^2.6.5",
+    "sse-writer": "^1.3.1",
     "stream-to-promise": "^2.2.0",
     "uuid": "^3.2.1"
   },
