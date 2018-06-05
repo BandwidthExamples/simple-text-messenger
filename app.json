@@ -1,0 +1,23 @@
+{
+  "name": "simple-text-messenger",
+  "description": "This is a simple text messaging application.",
+  "repository": "https://github.com/BandwidthExamples/simple-text-messenger.gits",
+  "logo": "https://avatars2.githubusercontent.com/u/12057884?v=3&s=200",
+  "keywords": ["node", "bandwidth", "sms", "mms", "messaging"],
+  "env": {
+    "BANDWIDTH_USER_ID": {
+      "description": "Your Catapult User Id"
+    },
+    "BANDWIDTH_API_TOKEN": {
+      "description": "Your Catapult Api Token"
+    },
+    "BANDWIDTH_API_SECRET": {
+      "description": "Your Catapult Api Secret"
+		},
+		"AREA_CODE": {
+			"description": "Area code for reserved service phone number",
+			"default": "910"
+    }
+  },
+  "addons": ["heroku-redis:hobby-dev"]
+}

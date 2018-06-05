@@ -7,7 +7,13 @@ services:
         env_file: .env
         environment:
             - REDIS_URL=redis://redis:6379
+            - USE_HTTP2=yes
         ports:
-            - "$PORT:3000"
+            - "443:3000"
+        volumes:
+            ./certs:/src/certs
+        restart: always
+
     redis:
         image: redis:3
+        restart: always
