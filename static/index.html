@@ -1,0 +1,9 @@
+<html>
+	<body>
+		<p>Hello</p>
+		<script>
+			var source = new EventSource('/messages/events?sessionId=97b454f0-688f-11e8-917c-0b793a6e8108');
+			source.onmessage = e => console.log(e.data);
+		</script>
+	</body>
+</html>

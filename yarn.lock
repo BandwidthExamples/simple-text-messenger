@@ -1042,7 +1042,7 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-fast-safe-stringify@^1.0.8, fast-safe-stringify@^1.2.3:
+fast-safe-stringify@^1.0.8, fast-safe-stringify@^1.2.0, fast-safe-stringify@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-1.2.3.tgz#9fe22c37fb2f7f86f06b8f004377dbf8f1ee7bc1"
 
@@ -1069,6 +1069,12 @@ fastify-multipart@^0.5.0:
     busboy "^0.2.14"
     fastify-plugin "^0.2.2"
 
+fastify-plugin@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-0.1.1.tgz#13a94f495a90fd5a7ae4bcd827c54ea5986c794f"
+  dependencies:
+    semver "^5.3.0"
+
 fastify-plugin@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/fastify-plugin/-/fastify-plugin-0.2.2.tgz#e01b67685fd02e87edc98670ce2acfe251a2c715"
@@ -1087,6 +1093,13 @@ fastify-redis@^1.0.0:
   dependencies:
     fastify-plugin "^0.2.2"
     ioredis "^3.2.2"
+
+"fastify-sse@https://github.com/avbel/fastify-sse.git":
+  version "0.1.5"
+  resolved "https://github.com/avbel/fastify-sse.git#ab82625dc18004d65a58f3820f0e02f7a70ca764"
+  dependencies:
+    fast-safe-stringify "^1.2.0"
+    fastify-plugin "^0.1.0"
 
 fastify-static@^0.10.1:
   version "0.10.1"
