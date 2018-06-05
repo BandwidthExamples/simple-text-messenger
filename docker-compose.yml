@@ -1,7 +1,7 @@
 version: '2'
 services:
     web:
-        build: .
+        image: bandwidthexamples/simple-text-messenger
         depends_on:
             - redis
         env_file: .env
