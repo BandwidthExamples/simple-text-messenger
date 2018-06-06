@@ -17,6 +17,10 @@
     "AREA_CODE": {
       "description": "Area code for reserved service phone number",
       "value": "910"
+		},
+		"LOG_LEVEL": {
+      "description": "Log level",
+      "value": "debug"
     }
   },
   "addons": ["heroku-redis:hobby-dev"]
