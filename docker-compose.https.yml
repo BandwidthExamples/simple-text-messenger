@@ -1,0 +1,19 @@
+version: '2'
+services:
+    web:
+        image: bandwidthexamples/simple-text-messenger
+        depends_on:
+            - redis
+        env_file: .env
+        environment:
+            - REDIS_URL=redis://redis:6379
+            - USE_HTTPS=yes
+        ports:
+            - "443:3000"
+        volumes:
+            ./certs:/src/certs
+        restart: always
+
+    redis:
+        image: redis:3
+        restart: always
