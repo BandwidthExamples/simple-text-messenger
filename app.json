@@ -13,10 +13,10 @@
     },
     "BANDWIDTH_API_SECRET": {
       "description": "Your Catapult Api Secret"
-		},
-		"AREA_CODE": {
-			"description": "Area code for reserved service phone number",
-			"default": "910"
+    },
+    "AREA_CODE": {
+      "description": "Area code for reserved service phone number",
+      "value": "910"
     }
   },
   "addons": ["heroku-redis:hobby-dev"]
