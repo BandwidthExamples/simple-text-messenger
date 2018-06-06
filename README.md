@@ -1,3 +1,26 @@
+# simple-text-messenger
+
+[![Build Status](https://travis-ci.org/BandwidthExamples/simple-text-messenger.svg?branch=master)](https://travis-ci.org/BandwidthExamples/simple-text-messenger)
+
+## Prerequisites
+- Configured Machine with Ngrok/Port Forwarding -OR- Azure Account
+  - [Ngrok](https://ngrok.com/)
+- [Bandwidth Account](https://catapult.inetwork.com/pages/signup.jsf/?utm_medium=social&utm_source=github&utm_campaign=dtolb&utm_content=_)
+- [NodeJS 8+](https://nodejs.org/en/)
+- [Git](https://git-scm.com/)
+
+## Build and Deploy
+
+### One Click Deploy
+
+#### Settings Required To Run
+* ```Bandwidth User Id```
+* ```Bandwidth Api Token```
+* ```Bandwidth Api Secret```
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ## Routes
 
 Call `GET` `/profile` to get user's data. If user is not authorized you will receive `null`. Otherwise you will receive json like `{phoneNumber: '', servicePhoneNumber: '', sessionId: ''}`
