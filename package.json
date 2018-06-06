@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node -e \"require('./lib/index')().then(app => app.listen(process.env.PORT || 3000), console.trace)\"",
+    "start": "node -e \"require('./lib/index')().then(app => app.listen(process.env.PORT || 3000, process.env.HOST || '0.0.0.0'), console.trace)\"",
     "redis": "docker run -p 6379:6379 --rm redis:3"
   },
   "dependencies": {
