@@ -15,11 +15,14 @@
     "fastify-sse": "https://github.com/avbel/fastify-sse.git",
     "ioredis": "^3.2.2",
     "node-bandwidth": "^2.6.5",
+    "randomstring": "^1.1.5",
     "stream-to-promise": "^2.2.0",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
     "ava": "^0.25.0",
+    "nock": "^9.3.1",
+    "stream-from-promise": "^1.0.0",
     "testdouble": "^3.8.1",
     "xo": "^0.21.1"
   },
